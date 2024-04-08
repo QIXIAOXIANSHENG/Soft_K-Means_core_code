@@ -18,7 +18,7 @@ import multiprocessing
 # this path is the file that contains the .py file defining soft k-means class
 sys.path.append(r"/old_Users/zchen190/soft kmeans/run file/040724")
 # import the .py file defining soft k-means class
-import sk_function_try as skm
+import skm_class as skm
 
 names=locals()
 
