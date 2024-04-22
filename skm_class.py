@@ -18,7 +18,7 @@ import multiprocessing
 names=locals()
 
 class skmeans():
-    def __init__(self,path,reward,lmax_iter,lmax_centerdiff,seed,part_path,standardize=True,k_max=np.nan,kmethod=False):
+    def __init__(self,path,reward,lmax_iter,lmax_centerdiff,seed,part_path,standardize=True,k_max=np.nan,kmethod=True):
         self.path=path
         self.w=reward
         self.max_iter=lmax_iter
