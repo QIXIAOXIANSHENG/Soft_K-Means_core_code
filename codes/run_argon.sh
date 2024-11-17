@@ -33,4 +33,4 @@ module load stack/legacy
 module load python/3.7.0
 
 cd /old_Users/zchen190/soft\ kmeans/run\ file/102024
-python run_0-0.py
+python run_argon.py
