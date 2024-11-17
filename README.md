@@ -10,16 +10,27 @@ The Soft K-means is defined in the SKM_define branch. Last modified on 4/8/24.
 
 # Use of code
 Use the codes in the following order:
+
   gene_selection.R
+  
   merge_selected_genes.R
+  
   ygob_generate.R
+  
   find_optimal_K.py
+  
   run_argon.sh
+  
   generate_cluster_plotcsv.py
+  
   plot_heatmap.R
+  
   statistical_scores.py
+  
   topGO_enrichment_analysis.R
+  
   biological_scores.R
+  
   combind_score.R
 
 # Soft K-Means input data format
